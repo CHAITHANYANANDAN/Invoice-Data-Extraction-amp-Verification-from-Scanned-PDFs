@@ -1,0 +1,43 @@
+{
+    "overall_confidence": 0.92,
+    "verification_status": "VERIFIED",
+    "timestamp": "2024-05-29T14:30:47.654321",
+    "field_confidence_scores": {
+      "invoice_number": 0.98,
+      "invoice_date": 0.95,
+      "vendor_info": 0.89,
+      "line_items": 0.91,
+      "totals": 0.94
+    },
+    "mathematical_verification": {
+      "line_item_calculations": true,
+      "subtotal_verification": true,
+      "total_verification": true,
+      "gst_calculations": true
+    },
+    "data_quality_flags": {
+      "missing_fields": [],
+      "low_confidence_fields": [
+        "vendor_info"
+      ],
+      "calculation_errors": [],
+      "format_issues": [
+        "Minor OCR artifacts in vendor address"
+      ]
+    },
+    "seal_signature_verification": {
+      "seals_detected": true,
+      "signature_count": 2,
+      "authenticity_score": 0.87
+    },
+    "recommendations": [
+      "Verify vendor GST number independently",
+      "Cross-check shipping address format",
+      "Manual review recommended for vendor information due to lower confidence score"
+    ],
+    "processing_metadata": {
+      "ocr_engine": "Tesseract 5.0.1",
+      "processing_time": 12.45,
+      "image_quality_score": 0.89
+    }
+  }
