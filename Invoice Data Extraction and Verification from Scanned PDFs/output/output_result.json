@@ -1,0 +1,6 @@
+{
+    "invoice_number": "INV-12345",
+    "date": "2024-05-01",
+    "customer": "John Doe",
+    "total_amount": "$1,250.00"
+}
